@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Dec 09 21:26:46 2021
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+Revision Name : gba_cart
+Top-level Entity Name : gba_cart
+Family : MAX 10
+Total logic elements : 116
+    Total combinational functions : 102
+    Dedicated logic registers : 83
+Total registers : 83
+Total pins : 162
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

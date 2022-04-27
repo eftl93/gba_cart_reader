@@ -1,0 +1,4 @@
+module debouncer( input  logic bouncing,
+						input  logic clk,
+						output logic debounced
+						);

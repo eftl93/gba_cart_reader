@@ -1,0 +1,23 @@
+module dump_fsm( input clk,
+					  input flash_ram,
+					  input wait_cntr_done,
+					  input start_dump,
+					  input n_reset
+					  output n_rd,
+					  output n_wr,
+					  output n_cs,
+					  output n_cs2,
+					  output out_en,
+					  output addr_cntr_clk,
+					  output wait_cntr_en,
+					  output addr_cntr_reset
+					  );
+					  
+					  
+
+
+always @(posedge clk)
+if(
+
+
+endmodule

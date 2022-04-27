@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\fpga_deca\gba_cart\i2c_avalon_test.qsys --block-symbol-file --output-directory=E:\fpga_deca\gba_cart\i2c_avalon_test --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading gba_cart/i2c_avalon_test.qsys
+Progress: Reading input file
+Progress: Adding i2cslave_to_avlmm_bridge_0 [altera_i2cslave_to_avlmm_bridge 21.1]
+Progress: Parameterizing module i2cslave_to_avlmm_bridge_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\fpga_deca\gba_cart\i2c_avalon_test.qsys --synthesis=VERILOG --output-directory=E:\fpga_deca\gba_cart\i2c_avalon_test\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading gba_cart/i2c_avalon_test.qsys
+Progress: Reading input file
+Progress: Adding i2cslave_to_avlmm_bridge_0 [altera_i2cslave_to_avlmm_bridge 21.1]
+Progress: Parameterizing module i2cslave_to_avlmm_bridge_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: i2c_avalon_test: Generating i2c_avalon_test "i2c_avalon_test" for QUARTUS_SYNTH
+Info: i2cslave_to_avlmm_bridge_0: "i2c_avalon_test" instantiated altera_i2cslave_to_avlmm_bridge "i2cslave_to_avlmm_bridge_0"
+Info: i2c_avalon_test: Done "i2c_avalon_test" with 2 modules, 11 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

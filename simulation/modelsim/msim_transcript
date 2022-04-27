@@ -1,0 +1,167 @@
+# Reading C:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do gba_cart_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/fpga_deca/gba_cart {E:/fpga_deca/gba_cart/gba_cart.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:05 on Dec 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga_deca/gba_cart" E:/fpga_deca/gba_cart/gba_cart.v 
+# -- Compiling module gba_cart
+# 
+# Top level modules:
+# 	gba_cart
+# End time: 21:38:05 on Dec 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/fpga_deca/gba_cart {E:/fpga_deca/gba_cart/dump_fsm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:05 on Dec 09,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/fpga_deca/gba_cart" E:/fpga_deca/gba_cart/dump_fsm.sv 
+# -- Compiling module dump_fsm
+# 
+# Top level modules:
+# 	dump_fsm
+# End time: 21:38:05 on Dec 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/fpga_deca/gba_cart {E:/fpga_deca/gba_cart/clock_divider.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:05 on Dec 09,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/fpga_deca/gba_cart" E:/fpga_deca/gba_cart/clock_divider.sv 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 21:38:05 on Dec 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+E:/fpga_deca/gba_cart {E:/fpga_deca/gba_cart/debouncer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:05 on Dec 09,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+E:/fpga_deca/gba_cart" E:/fpga_deca/gba_cart/debouncer.sv 
+# -- Compiling module debouncer
+# 
+# Top level modules:
+# 	debouncer
+# End time: 21:38:05 on Dec 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.gba_cart
+# vsim work.gba_cart 
+# Start time: 21:38:43 on Dec 09,2021
+# Loading work.gba_cart
+# Loading sv_std.std
+# Loading work.debouncer
+# Loading work.clock_divider
+# Loading work.dump_fsm
+add wave -position end  sim:/gba_cart/ADC_CLK_10
+add wave -position end  sim:/gba_cart/MAX10_CLK1_50
+add wave -position end  sim:/gba_cart/MAX10_CLK2_50
+add wave -position end  sim:/gba_cart/KEY
+add wave -position end  sim:/gba_cart/LED
+add wave -position end  sim:/gba_cart/CAP_SENSE_I2C_SCL
+add wave -position end  sim:/gba_cart/CAP_SENSE_I2C_SDA
+add wave -position end  sim:/gba_cart/AUDIO_BCLK
+add wave -position end  sim:/gba_cart/AUDIO_DIN_MFP1
+add wave -position end  sim:/gba_cart/AUDIO_DOUT_MFP2
+add wave -position end  sim:/gba_cart/AUDIO_GPIO_MFP5
+add wave -position end  sim:/gba_cart/AUDIO_MCLK
+add wave -position end  sim:/gba_cart/AUDIO_MISO_MFP4
+add wave -position end  sim:/gba_cart/AUDIO_RESET_n
+add wave -position end  sim:/gba_cart/AUDIO_SCL_SS_n
+add wave -position end  sim:/gba_cart/AUDIO_SCLK_MFP3
+add wave -position end  sim:/gba_cart/AUDIO_SDA_MOSI
+add wave -position end  sim:/gba_cart/AUDIO_SPI_SELECT
+add wave -position end  sim:/gba_cart/AUDIO_WCLK
+add wave -position end  sim:/gba_cart/HDMI_I2C_SCL
+add wave -position end  sim:/gba_cart/HDMI_I2C_SDA
+add wave -position end  sim:/gba_cart/HDMI_I2S
+add wave -position end  sim:/gba_cart/HDMI_LRCLK
+add wave -position end  sim:/gba_cart/HDMI_MCLK
+add wave -position end  sim:/gba_cart/HDMI_SCLK
+add wave -position end  sim:/gba_cart/HDMI_TX_CLK
+add wave -position end  sim:/gba_cart/HDMI_TX_D
+add wave -position end  sim:/gba_cart/HDMI_TX_DE
+add wave -position end  sim:/gba_cart/HDMI_TX_HS
+add wave -position end  sim:/gba_cart/HDMI_TX_INT
+add wave -position end  sim:/gba_cart/HDMI_TX_VS
+add wave -position end  sim:/gba_cart/SD_CLK
+add wave -position end  sim:/gba_cart/SD_CMD
+add wave -position end  sim:/gba_cart/SD_CMD_DIR
+add wave -position end  sim:/gba_cart/SD_D0_DIR
+add wave -position end  sim:/gba_cart/SD_D123_DIR
+add wave -position end  sim:/gba_cart/SD_DAT
+add wave -position end  sim:/gba_cart/SD_FB_CLK
+add wave -position end  sim:/gba_cart/SD_SEL
+add wave -position end  sim:/gba_cart/SW
+add wave -position end  sim:/gba_cart/USB_CLKIN
+add wave -position end  sim:/gba_cart/USB_CS
+add wave -position end  sim:/gba_cart/USB_DATA
+add wave -position end  sim:/gba_cart/USB_DIR
+add wave -position end  sim:/gba_cart/USB_FAULT_n
+add wave -position end  sim:/gba_cart/USB_NXT
+add wave -position end  sim:/gba_cart/USB_RESET_n
+add wave -position end  sim:/gba_cart/USB_STP
+add wave -position end  sim:/gba_cart/BBB_PWR_BUT
+add wave -position end  sim:/gba_cart/BBB_SYS_RESET_n
+add wave -position end  sim:/gba_cart/GPIO0_D
+add wave -position end  sim:/gba_cart/GPIO1_D
+add wave -position end  sim:/gba_cart/AD
+add wave -position end  sim:/gba_cart/nWR
+add wave -position end  sim:/gba_cart/CLK_GBA
+add wave -position end  sim:/gba_cart/nRD
+add wave -position end  sim:/gba_cart/nCS
+add wave -position end  sim:/gba_cart/nIRQ
+add wave -position end  sim:/gba_cart/nCS2
+add wave -position end  sim:/gba_cart/GPIO0_D2
+add wave -position end  sim:/gba_cart/GPIO0_D7
+add wave -position end  sim:/gba_cart/clk_1Hz
+add wave -position end  sim:/gba_cart/clk_1MHz
+add wave -position end  sim:/gba_cart/button
+add wave -position end  sim:/gba_cart/reset
+add wave -position end  sim:/gba_cart/data_ready
+add wave -position end  sim:/gba_cart/current_address
+add wave -position end  sim:/gba_cart/out_en
+add wave -position end  sim:/gba_cart/rom_data
+force -freeze sim:/gba_cart/MAX10_CLK1_50 1 0, 0 {0 ps} -r 1
+force -freeze sim:/gba_cart/KEY 11 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/gba_cart/MAX10_CLK1_50 1 0, 0 {0 ps} -r 1
+run
+run
+force -freeze sim:/gba_cart/MAX10_CLK1_50 1 0, 0 {50 ps} -r 100
+run
+run
+force -freeze sim:/gba_cart/KEY 10 0
+force -freeze sim:/gba_cart/MAX10_CLK1_50 1 0, 0 {50 ps} -r 100
+run
+run
+run
+force -freeze sim:/gba_cart/MAX10_CLK1_50 1 0, 0 {50 ps} -r 100
+run -continue
+# WARNING: No extended dataflow license exists
+force -freeze sim:/gba_cart/MAX10_CLK1_50 1 0, 0 {50 ps} -r 100
+run
+run
+# End time: 21:56:15 on Dec 09,2021, Elapsed time: 0:17:32
+# Errors: 0, Warnings: 1

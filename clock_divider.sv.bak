@@ -1,0 +1,22 @@
+module clock_divider #( parameter DIVISOR = 26'D25000000)
+							 (	input  logic clk_in,
+								input	 logic reset,
+								output logic clk_out
+							 );
+logic [25:0] counter;
+
+always_ff @(posedge clk_in, negedge reset)
+	begin
+		if(!reset)
+			counter <= 25'b0;
+		else
+			if(counter >= DIVISOR)
+				begin
+					counter <= 25'b0;
+					clk_out <= ~clk_out;
+				end
+			else
+				counter <= counter +1;
+	end
+endmodule
+			

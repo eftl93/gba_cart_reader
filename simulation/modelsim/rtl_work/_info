@@ -1,0 +1,107 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/fpga_deca/gba_cart/simulation/modelsim
+vclock_divider
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1639107485
+!i10b 1
+!s100 i08jzYWc`M9SHNTLk2UGf0
+Iz1UiU@4QCYjV9>U9g?^Uo3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clock_divider_sv_unit
+S1
+R0
+w1638771781
+8E:/fpga_deca/gba_cart/clock_divider.sv
+FE:/fpga_deca/gba_cart/clock_divider.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1639107485.000000
+!s107 E:/fpga_deca/gba_cart/clock_divider.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/fpga_deca/gba_cart|E:/fpga_deca/gba_cart/clock_divider.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+E:/fpga_deca/gba_cart
+Z8 tCvgOpt 0
+vdebouncer
+R1
+R2
+!i10b 1
+!s100 XYIgGQDMDAHO4[LG<75AC0
+I<m2V59o=h7j^24b;0h5LN1
+R3
+!s105 debouncer_sv_unit
+S1
+R0
+w1638771725
+8E:/fpga_deca/gba_cart/debouncer.sv
+FE:/fpga_deca/gba_cart/debouncer.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/fpga_deca/gba_cart/debouncer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/fpga_deca/gba_cart|E:/fpga_deca/gba_cart/debouncer.sv|
+!i113 1
+R6
+R7
+R8
+vdump_fsm
+R1
+R2
+!i10b 1
+!s100 haKZZQ[zWco5MN^I<17g]1
+IdO7G92]7Zll>A6LR>@nSn2
+R3
+!s105 dump_fsm_sv_unit
+S1
+R0
+w1639106706
+8E:/fpga_deca/gba_cart/dump_fsm.sv
+FE:/fpga_deca/gba_cart/dump_fsm.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/fpga_deca/gba_cart/dump_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+E:/fpga_deca/gba_cart|E:/fpga_deca/gba_cart/dump_fsm.sv|
+!i113 1
+R6
+R7
+R8
+vgba_cart
+R2
+!i10b 1
+!s100 H=RA[Vf>2UD9COh78P<Dm2
+IYQH>NROBPUemQe_beKg:o0
+R3
+R0
+w1639106796
+8E:/fpga_deca/gba_cart/gba_cart.v
+FE:/fpga_deca/gba_cart/gba_cart.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/fpga_deca/gba_cart/gba_cart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga_deca/gba_cart|E:/fpga_deca/gba_cart/gba_cart.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/fpga_deca/gba_cart
+R8
